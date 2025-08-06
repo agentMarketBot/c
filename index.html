@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown App</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Countdown App</h1>
+      <div id="countdown-form">
+        <h2>Create New Countdown</h2>
+        <input type="text" id="countdown-name" placeholder="Countdown name" />
+        <input type="datetime-local" id="countdown-date" />
+        <button id="create-countdown">Create Countdown</button>
+      </div>
+      <div id="countdowns-list">
+        <h2>Active Countdowns</h2>
+        <div id="countdowns"></div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
